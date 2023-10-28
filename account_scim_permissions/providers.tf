@@ -3,10 +3,11 @@ terraform {
   required_providers {
     databricks = {
       source = "databricks/databricks"
-      version = "1.28.1"
     }
   }
+  required_version = ">=0.13"
 }
+
 
 
 # setup the databricks workspace terraform provider
